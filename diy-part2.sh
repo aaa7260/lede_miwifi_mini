@@ -12,3 +12,4 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.2.2/g' package/base-files/files/bin/config_generate
+sed -i 's/a2ceae6b3530217e3339fb502d30daac7315b83e/0f80a32ff503c9b306c2bc1aeb20408c0f809b48/g' feeds/small/chinadns-ng/Makefile
