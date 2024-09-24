@@ -19,3 +19,4 @@
 
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+echo "src-git cups https://github.com/Gr4ffy/lede-cups.git" >> feeds.conf.default
