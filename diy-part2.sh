@@ -15,4 +15,4 @@ sed -i 's/192.168.1.1/192.168.3.1/g' package/base-files/files/bin/config_generat
 sed -i 's/PKG_VERSION:=2.1.4/PKG_VERSION:=2.3.3/g' package/feeds/cups/cups/Makefile
 sed -i '/^PKG_SOURCE_UR/d' package/feeds/cups/cups/Makefile
 sed -i '/^PKG_MD5SUM/d' package/feeds/cups/cups/Makefile
-cp -f $GITHUB_WORKSPACE/cups-2.3.3-source.tar.gz /dl/cups-2.3.3-source.tar.gz
+cp -f $GITHUB_WORKSPACE/cups-2.3.3-source.tar.gz dl/cups-2.3.3-source.tar.gz
