@@ -17,6 +17,7 @@ sed -i 's/192.168.1.1/192.168.3.1/g' package/base-files/files/bin/config_generat
 sed -i '/^PKG_MD5SUM/d' package/feeds/cups/cups/Makefile
 # cp -f $GITHUB_WORKSPACE/cups-2.3.3-source.tar.gz dl/cups-2.3.3-source.tar.gz
 #rm -rf package/feeds/cups/cups/patch
-sed -i 's/\/$(PKG_VERSION)/\/release-$(PKG_VERSION)\/$(PKG_SOURCE)/g' package/feeds/cups/cups/Makefile
+#sed -i 's/\/$(PKG_VERSION)/\/release-$(PKG_VERSION)\/$(PKG_SOURCE)/g' package/feeds/cups/cups/Makefile
 #https://github.com/apple/cups/releases/download/v2.3.3/cups-2.3.3-source.tar.gz
 #https://github.com/apple/cups/releases/download/release-2.1.4/cups-2.1.4-source.tar.gz
+sed -i 's/\/$(PKG_VERSION)/\/release-2.1.4\/cups-2.1.4-source.tar.gz/g' package/feeds/cups/cups/Makefile
