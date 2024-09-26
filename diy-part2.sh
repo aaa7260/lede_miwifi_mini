@@ -20,4 +20,4 @@ sed -i '/^PKG_MD5SUM/d' package/feeds/cups/cups/Makefile
 #sed -i 's/\/$(PKG_VERSION)/\/release-$(PKG_VERSION)\/$(PKG_SOURCE)/g' package/feeds/cups/cups/Makefile
 #https://github.com/apple/cups/releases/download/v2.3.3/cups-2.3.3-source.tar.gz
 #https://github.com/apple/cups/releases/download/release-2.1.4/cups-2.1.4-source.tar.gz
-sed -i 's/\/$(PKG_VERSION)/\/release-2.1.4\/cups-2.1.4-source.tar.gz/g' package/feeds/cups/cups/Makefile
+#sed -i 's/\/$(PKG_VERSION)/\/release-2.1.4\/cups-2.1.4-source.tar.gz/g' package/feeds/cups/cups/Makefile
