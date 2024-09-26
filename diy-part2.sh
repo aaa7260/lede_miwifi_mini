@@ -16,3 +16,4 @@ sed -i 's/PKG_VERSION:=2.1.4/PKG_VERSION:=2.3.3/g' package/feeds/cups/cups/Makef
 sed -i '/^PKG_SOURCE_UR/d' package/feeds/cups/cups/Makefile
 sed -i '/^PKG_MD5SUM/d' package/feeds/cups/cups/Makefile
 # cp -f $GITHUB_WORKSPACE/cups-2.3.3-source.tar.gz dl/cups-2.3.3-source.tar.gz
+rm -rf package/feeds/cups/cups/patch
