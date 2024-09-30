@@ -27,5 +27,5 @@ sed -i '/^PKG_SOURCE_UR/d' feeds/cups/cups/Makefile
 
 sed -i 's/PKG_VERSION:=22.01.0/PKG_VERSION:=24.09.0/g' feeds/cups/poppler/Makefile
 sed -i 's/gz/xz/g' feeds/cups/poppler/Makefile
-sed -i 's/PKG_SOURCE_UR/PKG_SOURCE_URL:=https:\/\/poppler.freedesktop.org/g' feeds/cups/poppler/Makefile
+sed -i 's#^PKG_SOURCE_UR#PKG_SOURCE_URL:=https://poppler.freedesktop.org#g' feeds/cups/poppler/Makefile
 sed -i 's#^PKG_MD5SUM#KG_MD5SUM:=CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7#g' feeds/cups/poppler/Makefile
