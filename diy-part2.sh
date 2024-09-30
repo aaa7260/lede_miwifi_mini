@@ -27,5 +27,5 @@ sed -i '/^PKG_SOURCE_UR/d' feeds/cups/cups/Makefile
 
 #sed -i 's/PKG_VERSION:=22.01.0/PKG_VERSION:=24.09.0/g' feeds/cups/poppler/Makefile
 sed -i 's/gz/xz/g' feeds/cups/poppler/Makefile
-sed -i '/^PKG_SOURCE_UR/d' feeds/cups/poppler/Makefile
+#sed -i '/^PKG_SOURCE_UR/d' feeds/cups/poppler/Makefile
 sed -i '/^PKG_MD5SUM/d' feeds/cups/poppler/Makefile
